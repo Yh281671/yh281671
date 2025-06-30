@@ -1,0 +1,76 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.main{
+	width:100%;
+	background:linear-gradient(to top,rgba(230,230,250,1)0.5,rgba(230,230,250,1)0.5),url(ribbon.jpg)
+background-position:center;
+background-size:cover;
+height:109vh;
+}
+
+.navbar{
+	width:1200px;
+	height:75px;
+	margin:auto;
+}
+
+.icon{
+	width:200px;
+	float:left;
+	height:70px;
+}
+
+.logo{
+	color:#800080;
+}
+
+
+body {
+  background-color: lavender;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 导航列 */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero 横幅 */
+.hero {
+  background-color: plum;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+/* 欢迎区 */
+.welcome {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+}
+.tagline {
+  color: purple;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
