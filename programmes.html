@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Programmes | Sanrio University</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">SANRIO UNIVERSITY</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <nav>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programmes.html">Programmes</a></li>
+        <li><a href="international.html">International Students</a></li>
+        <li><a href="register.html">Register / Pay</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="chinese.html">中文</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Programmes Section -->
+  <section class="welcome">
+    <h2>Our Programmes</h2>
+    <div class="tagline">Empowering Bright Minds in Every Field 🎓</div>
+    <p>
+      At Sanrio University, we offer a wide range of undergraduate and postgraduate programmes designed to equip students with knowledge, skills, and joy. Explore our faculties below!
+    </p>
+
+    <div class="program-list">
+      <div class="program">
+        <h3>⚖️ School of Law</h3>
+        <p>Specialising in Family Law, Commercial Law, and International Law. Our law school focuses on justice with empathy and precision.</p>
+      </div>
+
+      <div class="program">
+        <h3>🎨 School of Arts & Design</h3>
+        <p>From visual communication to digital storytelling, students explore creativity while learning industry-relevant skills.</p>
+      </div>
+
+      <div class="program">
+        <h3>📈 School of Business</h3>
+        <p>Prepare for the global economy with courses in marketing, finance, entrepreneurship, and leadership development.</p>
+      </div>
+
+      <div class="program">
+        <h3>💻 School of Technology</h3>
+        <p>Discover the future through our tech programmes in computer science, AI, UX/UI design, and cybersecurity.</p>
+      </div>
+
+      <div class="program">
+        <h3>🌍 School of International Studies</h3>
+        <p>Train to become a global citizen with intercultural communication, diplomacy, and sustainable development courses.</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

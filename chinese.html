@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>中文页面 | Sanrio University</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">SANRIO UNIVERSITY</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <nav>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programmes.html">Programmes</a></li>
+        <li><a href="international.html">International Students</a></li>
+        <li><a href="register.html">Register / Pay</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="chinese.html">中文</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 中文内容 -->
+  <section class="welcome">
+    <h2>欢迎来到 Sanrio 大学 🎓</h2>
+    <div class="tagline">为全球中文学生提供贴心支持</div>
+
+    <p>
+      Sanrio 大学是一所以创意与温暖著称的国际大学，我们欢迎来自世界各地的学生，尤其注重中文母语者的学习与融入。
+    </p>
+
+    <h3>📚 本校开设课程</h3>
+    <ul>
+      <li>法律系：家庭法、商业法、国际法</li>
+      <li>艺术与设计系：视觉传达、插画、数字创意</li>
+      <li>商学院：市场营销、财务、创业</li>
+      <li>科技学院：计算机科学、人工智能、用户体验设计</li>
+    </ul>
+
+    <h3>📝 报名方式</h3>
+    <ol>
+      <li>填写线上报名表格</li>
+      <li>上传学术文件与护照复印件</li>
+      <li>缴交申请费（支持支付宝、微信、银行卡）</li>
+      <li>通过线上面试后，我们将在 5 个工作日内通知结果</li>
+    </ol>
+
+    <h3>💬 中文支援服务</h3>
+    <p>
+      我们设有中文学生辅导中心，提供语言协助、文化适应指导、中文咨询窗口，并配对在校中文导师。
+    </p>
+
+    <p>
+      如有疑问，欢迎电邮至：<a href="mailto:chinese@sanriouni.edu">chinese@sanriouni.edu</a>
+    </p>
+  </section>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>

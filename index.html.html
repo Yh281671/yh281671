@@ -1,38 +1,35 @@
-<html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sanrio University</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>University of Sanrio</title>
+  <link rel="stylesheet" href="style.css">
+<div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
 </head>
 <body>
 
   <!-- Header & Navigation -->
   <header>
-    <div class="logo">SANRIO UNIVERSITY</div>
-    <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Programmes</a></li>
-      <li><a href="#">International Students</a></li>
-      <li><a href="#">Register / Pay</a></li>
-      <li><a href="#">Calendar</a></li>
-      <li><a href="#">中文</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </header>
-<!-- Campus Image Section -->
-<section class="campus-image">
-  <img src="sanrio/jpeg" alt="Sanrio University Campus" />
-</section>
+<nav>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="programmes.html">Programmes</a></li>
+    <li><a href="international.html">International Students</a></li>
+    <li><a href="register.html">Register / Pay</a></li>
+    <li><a href="calendar.html">Calendar</a></li>
+    <li><a href="chinese.html">中文</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+</header>
 
   <!-- Hero Banner -->
   <section class="hero">
     <div class="hero-slide">
       <h2>🎉 Congratulations!</h2>
       <p>Certificate of Excellence</p>
-      <strong>Alicia Tai</strong>
+      <strong>Phoebe Tan Qian Ling</strong>
       <p>Family Law & Commercial Law</p>
     </div>
   </section>
@@ -45,6 +42,15 @@
       Sanrio University is a vibrant and innovative institution committed to delivering world-class education at accessible fees.
     </p>
   </section>
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+
 
 </body>
 </html>

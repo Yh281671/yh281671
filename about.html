@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us | Sanrio University</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">SANRIO UNIVERSITY</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <nav>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programmes.html">Programmes</a></li>
+        <li><a href="international.html">International Students</a></li>
+        <li><a href="register.html">Register / Pay</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="chinese.html">中文</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="welcome">
+    <h2>About Sanrio University</h2>
+    <div class="tagline">Where Dreams Meet Knowledge ✨</div>
+    <p>
+      Founded in 2001, Sanrio University was established with a bold vision: to combine academic excellence with joy, creativity, and a touch of magic.
+      Inspired by the values of friendship, kindness, and imagination, Sanrio University quickly grew into a beloved educational institution among students who seek a vibrant and meaningful learning experience.
+    </p>
+    <p>
+      Over the years, we’ve welcomed learners from over 30 countries, offering internationally recognized programmes in fields such as Law, Arts, Business, and Technology. Our campus is not just a place to study — it’s a place to grow, to collaborate, and to dream big.
+    </p>
+    <p>
+      Sanrio University believes that learning should spark joy. Our Hello Kitty-inspired library, My Melody mentorship cafés, and Cinnamoroll wellness center are just a few examples of how we create a unique and supportive learning environment.
+    </p>
+    <p>
+      Today, we continue to champion a student-first philosophy, delivering world-class education with a personal touch — the Sanrio way. 💖
+    </p>
+  </section>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

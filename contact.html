@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us | Sanrio University</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">SANRIO UNIVERSITY</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <nav>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programmes.html">Programmes</a></li>
+        <li><a href="international.html">International Students</a></li>
+        <li><a href="register.html">Register / Pay</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="chinese.html">中文</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="welcome">
+    <h2>Contact Us 💌</h2>
+    <div class="tagline">We’d Love to Hear From You</div>
+
+    <p>If you have questions about admissions, programmes, or life at Sanrio University, feel free to reach out.</p>
+
+    <h3>📍 Address</h3>
+    <p>123 Friendship Lane, Hello City 000123, Sanrio Nation</p>
+
+    <h3>📞 Phone</h3>
+    <p>+65 6123 4567 (Mon–Fri, 9am–5pm)</p>
+
+    <h3>📧 Email</h3>
+    <p><a href="mailto:info@sanriouni.edu">info@sanriouni.edu</a></p>
+
+    <h3>📝 Send Us a Message</h3>
+    <form action="#" method="post" class="contact-form">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
